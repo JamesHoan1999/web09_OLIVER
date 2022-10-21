@@ -1,0 +1,640 @@
+<!-- Created by Hoan(16/10/2022)  -->
+<!-- Danh sách nhân viên   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Danh sách nhân viên</title>
+
+</head>
+<body>
+    <div class="container" id="containerPage">
+        <!---------------------Thi công HEADER--------------------------->
+        <div class="header">
+            <div class="logo-container" id="logo-container">
+                <div class="logo-home-container">
+                    <div class="logo__home-icon"></div>
+                </div>
+                    <div class="logo__image-icon"></div>
+                
+            </div>
+            <div class="header-container" id="header-container">
+                <div class="navbar-container" id="navbar-container">
+                    <div class="navbar-icon" id="navbarIcon"></div>
+                </div>
+                <div class="header-wrapper">
+                    <div class="header-left">
+                        <div class="text-header " id="text-header">
+                            công ty tnhh sản xuất - thương mại - dịch vu qui phúc
+                        </div>
+                        <div class="mt-icon-wrapper">
+                            <div class="mt-icon"></div>
+                        </div>
+                    </div>
+                    <div class="notice-container">
+                        <div class="notice-icon"></div>
+                        <div class="avatar-icon"></div>
+                        <div class="profile">Lưu Tiến Hoan</div>
+                        <div class="mt-icon-wrapper">
+                            <div class="mt-icon"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------HEADER-END--------------------------->
+        <!---------------------Thi công SIDEBAR---------------------------->
+        <div class="sidebar" id="sidebar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                            <div class="tong-quan-icon" title="Tổng quan"></div>
+                            <div class="sidebar__text">Tổng quan</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="tien-mat-icon" title="Tiền mặt"></div>
+                            <div class="sidebar__text">Tiền mặt</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="tien-gui-icon" title="Tiền gửi"></div>
+                            <div class="sidebar__text">Tiền gửi</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="mua-hang-icon" title="Mua hàng"></div>
+                            <div class="sidebar__text">Mua hàng</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="ban-hang-icon " title="Bán hàng"></div>
+                            <div class="sidebar__text">Bán hàng</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="quan-ly-hoa-don-icon" title="Quản lý hóa đơn"></div>
+                            <div class="sidebar__text">Quản lý hóa đơn</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div class="kho-icon" title="Kho"></div>
+                            <div class="sidebar__text">Kho</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!---------------------SIDEBAR-END--------------------------->
+        <!---------------------Thi công MainContent---------------------------->
+        <div class="main">
+                 <!---------------------Thi công tiêu đề---------------------------->
+                <div class="header-main-container">
+                    <div class="content__text">Nhân viên</div>
+                    <div class="addnew">
+                        <button class="btn" id="btnOpenFormAddEmployee">Thêm mới nhân viên</button>
+                    </div>
+                </div>
+                <!---------------------tiêu đề END--------------------------------->
+
+
+                <!---------------------thi công Toolbar--------------------------->
+
+                <div class="table-search">
+                    <div class="search">
+                        <input type="text" name="input" class="textfield input mt0" placeholder="Tìm theo mã, tên nhân viên" hhh>
+                        <div class="search-icon"></div>
+                    </div>
+                    <div class="reload-container" title="Lấy lại dữ liệu"> 
+                        <div class="reload-icon"></div>
+                    </div>
+                </div>
+                <!---------------------Toolbar-END--------------------------->
+
+                <!---------------------Bảng dữ liệu ListEmployee---------------------------->
+                <div class="table-wrapper">
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="checkboxTable">
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </th>
+                                    <th class="employeeCode-table">Mã nhân viên</th>
+                                    <th class="fullName-table">Tên nhân viên</th>
+                                    <th>Giới tính</th>
+                                    <th class="txtcenter">Ngày sinh</th>
+                                    <th title="Số chứng minh nhân dân">Số CMND</th>
+                                    <th>Chức danh</th>
+                                    <th>Tên đơn vị</th>
+                                    <th>Số tài khoản</th>
+                                    <th>Tên ngân hàng</th>
+                                    <th title="Chi nhánh tài khoản ngân hàng">Chi nhánh tk ngân hàng </th>
+                                    <th>Chức năng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868383838</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                
+                                  <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="check-row" class="checkbox-row">
+                                    </td>
+                                    <td>NV00001</td>
+                                    <td>Lưu Tiến Hoan</td>
+                                    <td>Nam</td>
+                                    <td class="txtcenter">24/05/1999</td>
+                                    <td>686868</td>
+                                    <td>Nhân viên</td>
+                                    <td>Xuất nhập kho</td>
+                                    <td>4953686868</td>
+                                    <td>Techcombank</td>
+                                    <td>Hoàng Quốc Việt</td>
+                                    <td class="updateEmployee-container">
+                                        <div class="btn--updateEmployee">Sửa</div>
+                                        <div class="feature-icon"></div>
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row " class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td>Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row" class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td>Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row" class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td >Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row" class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td>Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row" class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td >Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="check-row" class="checkbox-row">
+                                        </td>
+                                        <td>NV00001</td>
+                                        <td>Lưu Tiến Hoan</td>
+                                        <td>Nam</td>
+                                        <td class="txtcenter">24/05/1999</td>
+                                        <td>686868</td>
+                                        <td>Nhân viên</td>
+                                        <td>Xuất nhập kho</td>
+                                        <td>4953686868</td>
+                                        <td>Techcombank</td>
+                                        <td>Hoàng Quốc Việt</td>
+                                        <td class="updateEmployee-container">
+                                            <div class="btn--updateEmployee">Sửa</div>
+                                            <div class="feature-icon"></div>
+                                        </td>
+                                    </tr> 
+                                </tbody>
+                                    
+                        </table>
+                
+
+                    
+                
+                    </div>
+                </div>
+                <!---------------------Bảng dữ liệu ListEmployee-END--------------------------->
+
+                <!---------------------Thi công phân trang---------------------------->
+                <div class="pading-container">
+                    <div class="pading-left">Tổng số : 20 bản ghi</div>
+                    <div class="pading-right">
+                        
+                        <div class="el-wrapper">
+                            <div class="combobox"  id="inputComboboxPaging" >
+                                <input type="text" class="combobox__input input mt0" disabled value="10 bản ghi trên 1 trang" id="inputValueComboboxPaging">
+                                <button class="combobox__button" id="btnOpenComboboxPaging"  ><div class="paging-icon"></div></button>
+                                <div class="combobox__data" id="combobox__data-paging">
+                                    <div class="data-item"> 10 bản ghi trên 1 trang</div>
+                                    <div class="data-item"> 20 bản ghi trên 1 trang</div>
+                                    <div class="data-item"> 50 bản ghi trên 1 trang</div>
+                                    <div class="data-item"> 100 bản ghi trên 1 trang</div>
+                                </div>
+                    
+                            </div>
+                        </div>
+                        
+                        <button class="back__button">Trước</button>
+                        <div class="list-record">1 2 3 4 ...10</div>
+                        <button class="back__button">Sau</button>
+                    </div>
+                </div>
+                <!---------------------Phân trang-END--------------------------->
+
+                
+
+            
+            
+        </div>
+         <!---------------------ListEmployee-End--------------------------->
+        
+    </div>
+
+    <!-- FORM CHI TIẾT NHÂN VIÊN -->
+    <div class="form" id="form-employeeDetail">
+        <div class="form-wrapper">
+                
+            <div class="form__header">
+                <div class="form__header-text">Thông tin nhân viên</div>
+                <div class="is-customer">
+                    <input type="checkbox" id="is_customer" name="is_customer" class ="b0">
+                    <label for="is-customer" class="txtcenter">Là khách hàng</label>
+                </div>
+                <div class="is-supplier ml12">
+                    <input type="checkbox" id="is_supplier" name="is_customer" class ="b0">
+                    <label for="is_supplier" class="txtcenter">Là nhà cung cấp</label>
+                </div>
+            </div>
+            <div class="form__body">
+                <div class="form__body-left">
+                    <div class="input-container-3 input__MNV mt0">
+                        <div class="input-container mt0 input__MNV-left">
+                            <label for="" class="input__label b required" >Mã</label>
+                            <input id="txtEmployeeCode" type="text" class="input required" required>
+                            <span class="input__text--error">Mã trùng </span>
+                            
+                        </div>
+                        <div class="input-container input__MNV-right ml12 mt0">
+                            <label for="" class="input__label b required ">Tên</label>
+                            <input id="txtFullName" type="tel" class="input required" required>
+                            <span class="input__text--error">Tên không được phép để trống </span>
+                            
+                        </div>
+                       
+                    </div>
+                    <div class="input-container mt14">
+                        <label for="department" class="input__label b required ">Đơn vị</label>
+                        <!-- <div class="combobox widthFullParent"  id="inputComboboxPaging" >
+                            <input type="text" class="combobox__input input mt0 widthFullParent" disabled value="10 bản ghi trên 1 trang" id="inputValueComboboxPaging" name="department">
+                            <button class="combobox__button" id="btnOpenComboboxPaging"  ><div class="paging-icon"></div></button>
+                            <div class="combobox__data" id="combobox__data-paging">
+                                <div class="data-item"> 10 bản ghi trên 1 trang</div>
+                                <div class="data-item"> 20 bản ghi trên 1 trang</div>
+                                <div class="data-item"> 50 bản ghi trên 1 trang</div>
+                                <div class="data-item"> 100 bản ghi trên 1 trang</div>
+                            </div>
+                
+                        </div> -->
+                        <input type="tel" class="input" id="departmentId" >
+                        <span class="input__text--error">Đơn vị không được phép để trống </span>
+                        
+                    </div>
+                    <div class="input-container  mt14 ">
+                        <label for="" class="input__label b ">Chức danh</label>
+                        <input type="tel" class="input">
+                        
+                    </div>
+                </div>
+                <div class="form__body-right">
+                    <div class="input-container-3 mt0">
+                        <div class="input-container mt0 width-date">
+                            <label for="" class="input__label b">Ngày sinh</label>
+                            <input type="date" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12 mt0">
+                            <label for="" class="input__label b ">Giới tính</label>
+                            <div class="gender-radio">
+                                <input name="gender" type="radio" class="gender-radio-value " value="Nam" />Nam
+                                <input name="gender" type="radio" class="gender-radio-value ml12"  value="Nữ" />Nữ
+                                <input name="gender" type="radio" class="gender-radio-value ml12"  value="Khác" />Khác
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+                    <div class="input-container-3 mt14">
+                        <div class="input-container mt0 flex_1">
+                            <label for="" class="input__label b" title="Số chứng minh nhân dân">Số CMND</label>
+                            <input type="tel" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12 mt0 width-date">
+                            <label for="" class="input__label b ">Ngày cấp</label>
+                            <input type="date" class="input">
+                            
+                        </div>
+                       
+                    </div>
+                    <div class="input-container mt14 ml0 ">
+                        <label for="" class="input__label b ">Nơi cấp</label>
+                        <input type="text" class="input">
+                        
+                    </div>
+
+                </div>
+                <div class="form__body-bottom">
+                    <div class="input-container mt0">
+                        <label for="" class="input__label b">Địa chỉ</label>
+                        <input type="text" class="input">
+                        
+                    </div>
+                    <div class="input-container-3 mt14">
+                        <div class="input-container">
+                            <label for="" class="input__label b" title="Điện thoại di động">ĐT di động</label>
+                            <input type="tel" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12">
+                            <label for="" class="input__label b " title=" Điện thoại cố định">ĐT cố định</label>
+                            <input type="tel" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12">
+                            <label for="" class="input__label b ">Email</label>
+                            <input type="emal" class="input">
+                            
+                        </div>
+                    </div>
+                    <div class="input-container-3 mt14">
+                        <div class="input-container">
+                            <label for="" class="input__label b">Tài khoản ngân hàng</label>
+                            <input type="tel" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12">
+                            <label for="" class="input__label b ">Tên ngân hàng</label>
+                            <input type="tel" class="input">
+                            
+                        </div>
+                        <div class="input-container ml12">
+                            <label for="" class="input__label b ">Chi nhánh</label>
+                            <input type="email" class="input">
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="form__footer">
+                <div class="form__footer-right">
+                    <button class="btn-phu "  id="btnSaveEmployee">Cất</button>
+                    <button class="btn margin-left-8 " >Cất và thêm mới</button>
+                </div>
+                <div class="form__footer-left">
+                    <button class="btn-phu">Hủy</button>
+
+                </div>
+                
+            </div>
+            <button class="form__button-close" id="btnCloseFormEmployee"><div class="close-icon" title="Đóng form"></div></button>
+            <button class="form__button-help"><div class="help-icon" title="Trợ giúp"></div></button>
+        </div>
+    </div>
+     <!-- FORM CHI TIẾT NHÂN VIÊN -->
+
+     <script src="./js/employeeDetail.js"></script>
+     <script src="./lib/jquery-3.6.1.js"></script>
+</body>
+</html>

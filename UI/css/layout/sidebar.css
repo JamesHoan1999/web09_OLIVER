@@ -1,0 +1,28 @@
+li {
+    color: aliceblue;
+    display: flex;
+   
+
+   
+   padding-left: 12px;
+    
+    height: 44px;
+    margin: 4px 12px;
+    
+   
+   
+}
+li:hover {
+    background-color: #757575;
+}
+ul {
+    padding: 0px;
+    margin: 0;
+}
+
+
+
+
+.sidebar-mini {
+    font-size: 0;
+}

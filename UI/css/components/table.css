@@ -1,0 +1,70 @@
+table tr {
+  height: 48px;
+}
+table {
+  margin: 0 24px;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  
+  /* border: unset;
+  width: 100%; */
+}
+table th,
+table td {
+    padding: 0 16px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px dotted #ccc;
+
+}
+table th {
+  border-right: 1px solid #ccc;
+}
+thead {
+  background-color:#E0E0E0;
+  position: sticky;
+  top: 0px;
+}
+
+table tr td,
+th {
+    text-align: left;
+
+}
+table tbody tr:hover {
+  background-color:#EEF8EC;
+  cursor: pointer;
+}
+.table-container {
+  display: flex;
+
+  overflow-y: auto;
+  white-space: nowrap;
+  
+  max-height: 100%;
+
+}
+
+.updateEmployee-container{
+  display: flex;
+  height: 48px;
+  align-items: center;
+}
+
+.btn--updateEmployee{
+  color: #0062CC;
+}
+
+
+.checkboxTable{
+  width: 25px;
+  
+  align-items: center;
+}
+
+/* .employeeCode-table {
+  min-width: 120px;
+}
+.fullName-table {
+  min-width: 120px;
+} */

@@ -1,0 +1,122 @@
+@import url(./components/table.css);
+@import url(./components/button.css);
+@import url(./components/combobox.css);
+@import url(./components/icon.css);
+@import url(./layout/header.css);
+@import url(layout/sidebar.css);
+@import url(layout/main_content.css);
+@import url(components/input.css);
+@import url(components/dialog.css);
+@import url(components/form.css);
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:notosans ;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+
+    
+}
+@font-face {
+    font-family: notosans;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+a {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    text-decoration: none;
+    display: flex;   
+    
+    align-items:center;
+  
+}
+.el-wrapper {
+    display: flex;
+    position: relative;
+    
+}
+.b {
+    font-weight: bold;
+}
+/* Các thuộc tính margin hay sử dụng */
+
+.margin-left-8{
+    margin-left: 8px;
+}
+.ml12{
+    margin-left: 12px;
+}
+
+.mt0{
+    margin-top: 0;
+}
+.ml0{
+    margin-left: 0;
+}
+.mt24 {
+    margin-top: 24px;
+}
+.ml24{
+    margin-left: 24px;
+}
+.mt14 {
+    margin-top: 14px;
+}
+.mb0 {
+    margin-bottom: 0;
+    
+}
+.b0{
+     bottom: 0;   
+}
+/* Các thuộc tính margin hay sử dụng */
+
+/* Dãn kín phần tử cha */
+.flex_1 {
+    flex: 1;
+}
+/* Độ dài input date */
+.width-date {
+    width: 160px;
+}
+
+hr {
+    margin-bottom: 0;
+    color: #BDBDBD;
+}
+.txtcenter {
+    text-align: center;
+
+}
+input[type=checkbox] {
+    accent-color:#fff;
+    color: #50B83C;
+    width: 20px;
+    height: 20px;
+   
+    
+   
+}
+
+input[type=radio] {
+    height: 18px;
+    width: 18px;
+    
+    margin-right: 10px;
+   
+}
+.widthFullParent{
+    width: 100%;
+}
+
+
+
+/* Thêm dấu hoa thị đỏ cho trường bắt buộc */
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+.width-sidebar-mini{
+    width: 56px;
+}

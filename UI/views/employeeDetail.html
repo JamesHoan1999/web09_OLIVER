@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout/layout.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Thông tin nhân viên</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Đây là header</div>
+        <div class="sidebar">Đây là sidebar</div>
+        <div class="main">
+
+            <!-- DIALOG -->
+            <div class="form">
+                <div class="form-wrapper">
+                        
+                    <div class="form__header">
+                        <div class="form__header-text">Thông tin nhân viên</div>
+                        <div class="is-customer">
+                            <input type="checkbox" id="is_customer" name="is_customer">
+                            <label for="is-customer">Là khách hàng</label>
+                        </div>
+                        <div class="is-supplier">
+                            <input type="checkbox" id="is_supplier" name="is_customer">
+                            <label for="is_supplier">Là nhà cung cấp</label>
+                        </div>
+                    </div>
+                    <div class="form__body">
+                        <div class="form__body-left">
+                            <div class="input-container-3 input__MNV mt0">
+                                <div class="input-container mt0 input__MNV-left">
+                                    <label for="" class="input__label b">Mã nhân viên</label>
+                                    <input type="text" class="input">
+                                    
+                                </div>
+                                <div class="input-container input__MNV-right ml12 mt0">
+                                    <label for="" class="input__label b ">Tên</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="input-container ml0">
+                                <label for="" class="input__label b ">Đơn vị</label>
+                                <input type="tel" class="input">
+                                
+                            </div>
+                            <div class="input-container  ml0">
+                                <label for="" class="input__label b ">Chức danh</label>
+                                <input type="tel" class="input">
+                                
+                            </div>
+                        </div>
+                        <div class="form__body-right">
+                            <div class="input-container-3 mt0">
+                                <div class="input-container mt0 width_40pc">
+                                    <label for="" class="input__label b">Ngày sinh</label>
+                                    <input type="date" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12 mt0">
+                                    <label for="" class="input__label b ">Giới tính</label>
+                                    <div class="gender-radio">
+                                        <input name="gender" type="radio" class="gender-radio-value" value="Nam" />Nam
+                                        <input name="gender" type="radio" class="gender-radio-value"  value="Nữ" />Nữ
+                                        <input name="gender" type="radio" class="gender-radio-value"  value="Khác" />Khác
+                                    </div>
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="input-container-3 mt24">
+                                <div class="input-container mt0 flex_1">
+                                    <label for="" class="input__label b" title="Số chứng minh nhân dân">Số CMND</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12 mt0 width_40pc">
+                                    <label for="" class="input__label b ">Ngày cấp</label>
+                                    <input type="date" class="input">
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="input-container mt24 ml0 ">
+                                <label for="" class="input__label b ">Nơi cấp</label>
+                                <input type="text" class="input">
+                                
+                            </div>
+
+                        </div>
+                        <div class="form__body-bottom">
+                            <div class="input-container mt0">
+                                <label for="" class="input__label b">Địa chỉ</label>
+                                <input type="text" class="input">
+                                
+                            </div>
+                            <div class="input-container-3">
+                                <div class="input-container">
+                                    <label for="" class="input__label b">ĐT di động</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12">
+                                    <label for="" class="input__label b ">ĐT cố định</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12">
+                                    <label for="" class="input__label b ">Email</label>
+                                    <input type="emal" class="input">
+                                    
+                                </div>
+                            </div>
+                            <div class="input-container-3">
+                                <div class="input-container">
+                                    <label for="" class="input__label b">Tài khoản ngân hàng</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12">
+                                    <label for="" class="input__label b ">Tên ngân hàng</label>
+                                    <input type="tel" class="input">
+                                    
+                                </div>
+                                <div class="input-container ml12">
+                                    <label for="" class="input__label b ">Chi nhánh</label>
+                                    <input type="email" class="input">
+                                    
+                                </div>
+                            </div>
+                            <hr>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="form__footer">
+                        <button class="btn margin-left-8" >Có</button>
+                        <button class="btn-phu " >Không</button>
+                    </div>
+                    <button class="form__button-close"><div class="close-icon"></div></button>
+                    <button class="form__button-help"><div class="help-icon"></div></button>
+                </div>
+            </div>
+             <!-- DIALOG -->
+        
+        </div>
+        
+    </div>
+    <script src="../lib/jquery-3.6.1.js"></script>
+    <script src="../js/employeeDetail.js"></script>
+</body>
+</html>

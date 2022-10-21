@@ -1,0 +1,196 @@
+
+ .logo__image-icon{
+	background: url('../../assets/icons/Logo_Module_TiengViet_White.66947422 (12).svg') no-repeat -1px -1px;
+	width: 113px;
+	height: 36px;
+	
+}
+
+.logo__home-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -428px -92px;
+	width: 16px;
+	height: 16px;
+	align-items: center;
+	justify-content: center;
+	
+	
+	
+   
+}
+.notice-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat  -257px -32px;
+	width: 24px;
+	height: 25px;
+}
+	
+    
+
+.tong-quan-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -33px -1630px;
+	width: 18px;
+	height: 20px;
+	margin-right: 12px;
+}
+.tien-mat-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -78px -1631px;
+	width: 14px;
+	height: 18px;
+	margin-right: 12px;
+
+}
+
+.tien-gui-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -121px -1633px;
+	width: 16px;
+	height: 16px;
+	margin-right: 12px;
+
+}
+
+.mua-hang-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -165px -1632px;
+	width: 16px;
+	height: 18px;
+	margin-right: 12px;
+
+}
+
+.ban-hang-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -206px -1631px;
+	width: 20px;
+	height: 18px;
+	margin-right: 12px;
+
+}
+.quan-ly-hoa-don-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -254px -1632px;
+	width: 14px;
+	height: 17px;
+	margin-right: 12px;
+
+}
+.kho-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -294px -1632px;
+	width: 18px;
+	height: 17px;
+	margin-right: 12px;
+
+}
+.cong-cu-dung-cu-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat  -339px -1633px;
+	width: 18px;
+	height: 17px;
+
+}
+.tai-san-co-dinh-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -382px -1632px;
+	width: 17px;
+	height: 18px;
+
+}
+.thue-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -427px -1634px;
+	width: 16px;
+	height: 16px;
+}
+.gia-thanh-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -471px -1633px;
+	width: 17px;
+	height: 17px;
+
+}
+.tong-hop {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat  -514px -1632px;
+	width: 16px;
+	height: 18px;
+
+}
+.ngan-sach-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -382px -1664px;
+	width: 16px;
+	height: 16px;
+}
+
+
+.bao-cao-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -552px -1636px;
+	width: 14px;
+	height: 13px;
+
+}
+.phan-tich-tai-chinh-icon {
+    background: url('../../assets/icons/Sprites.64af8f61.svg')  no-repeat -207px -1667px;
+	width: 17px;
+	height: 14px;
+
+}
+.navbar-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -847px -35px;
+	width: 16px;
+	height: 14px;
+	
+}
+.mt-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') -1129px -365px;
+	width: 14px;
+	height: 8px;
+	
+}
+.avatar-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -352px -894px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+.reload-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -1098px -90px;
+	width: 20px;
+	height: 20px;
+	
+}
+/* .search-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -956px -31px;
+	width: 20px;
+	height: 20px;
+} */
+.search-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -1041px -89px;
+	width: 20px;
+	height: 20px;
+}
+
+.back-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -36px -361px;
+	width: 8px;
+	height: 14px;
+}
+
+.next-icon {
+	background:  url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -84px -361px;
+	width: 8px;
+	height: 14px;
+}
+ 
+.close-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -147px -147px;
+	width: 18px;
+	height: 18px;
+}
+.help-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -732px -31px;
+	width: 22px;
+	height: 22px;
+}
+
+.feature-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg') no-repeat -900px -365px;
+	width: 8px;
+	height: 5px;
+	margin-left: 12px;
+}
+
+.paging-icon {
+	background: url('../../assets/icons/Sprites.64af8f61.svg')  no-repeat -1756px -317px;
+	width: 8px;
+	height: 5px;
+}

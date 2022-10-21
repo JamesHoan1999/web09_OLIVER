@@ -1,0 +1,45 @@
+ .container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-color:#E0E0E0;
+    grid-template-rows: 56px calc(100vh - 56px);
+    grid-template-columns: 200px calc(100% - 200px);
+    margin: 0;
+ }
+ .container--sidebar-mini {
+   display: grid;
+   width: 100%;
+   height: 100vh;
+   background-color:#E0E0E0;
+   grid-template-rows: 56px calc(100vh - 56px);
+   grid-template-columns: 56px calc(100% - 56px);
+}
+ .header {
+   position: relative;
+   display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(255, 255, 255);
+ }
+ .main {
+    
+    background-color: rgb(255, 255, 255);
+   
+
+    
+   margin: 24px;
+   
+    display: flex;
+   
+ }
+ .sidebar {
+   
+    background-color: #38393d;
+ }
+ 
+ .logo-container {
+   background-color:  #38393d;
+   height: 100%;
+   width: 200px;
+ }

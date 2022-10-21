@@ -1,0 +1,35 @@
+.btn {
+    
+    min-width: 50px;
+    height: 36px;
+    border-radius: 4px;
+    background: #50b83c;
+    
+    font-weight: 500;
+    border: none;
+    padding: 0 16px;
+  
+    
+   
+    text-align: center;
+   
+    color: #fff;
+}
+
+.btn-phu {
+    min-width: 50px;
+    height: 36px;
+    padding: 0 16px;
+    color: #1F1F1F;
+    border-radius: 4px;
+    background-color:#fff ;
+    font-weight: 500;
+    border-color:#E0E0E0 ;
+    border-width: 1px;
+    
+
+}
+
+.back-button {
+    border: none;
+}

@@ -1,0 +1,62 @@
+<!-- HTML COMPONENTS -->
+
+<!-- Author HoanOliver (16/10/2022) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="button">
+        <label for="">1.button</label>
+        <button class="btn">Button</button>
+    </div>
+    <!-- input nhập liệu -->
+    <div class="input-container">
+        <label for="" class="input__label">2.Input</label>
+        <input type="text" class="input">
+        <span class="input__text--error">Họ và tên không được phép để trống </span>
+    </div>
+    <!-- input tìm kiếm -->
+    <div class="input-container">
+        <label for="" class="input__label">3.Tìm kiếm</label>
+        <div class="input-wrapper">
+            <input class="input input--search " type="text">
+            <div class="search-icon"></div>
+                
+            
+            
+        </div>
+    </div>
+
+
+
+    <div class="el-wrapper">
+        <label for="" class="input__label">Dropdownlist</label>
+        <div class="combobox">
+            <input type="text" class="combobox__input input mt0">
+            <button class="combobox__button" id="btnOpenComboboxPaging"  ><div class="paging-icon"></div></button>
+            <div class="combobox__data" id="combobox__data-paging">
+                <div class="data-item"> 10 bản ghi trên 1 trang</div>
+                <div class="data-item"> 20 bản ghi trên 1 trang</div>
+                <div class="data-item"> 50 bản ghi trên 1 trang</div>
+                <div class="data-item"> 100 bản ghi trên 1 trang</div>
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/employeeDetail.js"></script>
+    
+    <script src="../lib/jquery-3.6.1.js"></script>
+   
+    
+  
+</body>
+</html>
