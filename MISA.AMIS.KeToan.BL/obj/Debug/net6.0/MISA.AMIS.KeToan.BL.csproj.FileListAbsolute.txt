@@ -1,0 +1,17 @@
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.BL.deps.json
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.BL.dll
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.BL.pdb
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.Common.dll
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.DL.dll
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.Common.pdb
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\bin\Debug\net6.0\MISA.AMIS.KeToan.DL.pdb
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.csproj.AssemblyReference.cache
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.AssemblyInfoInputs.cache
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.AssemblyInfo.cs
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.csproj.CoreCompileInputs.cache
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.csproj.CopyComplete
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.dll
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\refint\MISA.AMIS.KeToan.BL.dll
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\MISA.AMIS.KeToan.BL.pdb
+E:\BEWeb09\MISA.AMIS.KeToan.API\MISA.AMIS.KeToan.BL\obj\Debug\net6.0\ref\MISA.AMIS.KeToan.BL.dll
